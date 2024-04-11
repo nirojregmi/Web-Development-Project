@@ -1,0 +1,57 @@
+.menu-top {
+    background-color: green;
+    color: white;
+    height: 20px;
+    font-weight: bold;
+}
+
+.timeanddate {
+width: 50%;
+float: left;
+text-align: center;
+}
+
+.phoneandaddress {
+width: 50%;
+float: right;
+text-align:end;
+}
+
+.menu {
+    height: 50px;
+    font-weight: bolder;
+    align-content: center;
+}
+
+.menu-logo {
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+}
+
+.menu-link {
+    width: 50%;
+    float: right;
+    text-align:center;
+    padding-top: 10px;
+    color:white;
+
+}
+
+.menu-link span {
+    margin: 10px;
+    padding: 8px;
+    background-color: green;
+    border-radius: 6%;
+}
+
+.menu-link span a {
+    text-decoration: none;
+    color: white;
+}
+
+.background img {
+    height: auto;
+    width: 100%;
+}

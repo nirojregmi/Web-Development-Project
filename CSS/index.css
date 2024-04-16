@@ -55,3 +55,53 @@ text-align:end;
     height: auto;
     width: 100%;
 }
+
+.feature-destination {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.destinations {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .destination {
+    position: relative;
+  }
+  
+  .destination img {
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .destination:hover img {
+    transform: scale(1.1);
+  }
+  
+  .destination-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .destination:hover .destination-text {
+    opacity: 1;
+  }
+  

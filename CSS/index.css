@@ -14,7 +14,7 @@ text-align: center;
 .phoneandaddress {
 width: 50%;
 float: right;
-text-align:end;
+text-align:center;
 }
 
 .menu {
@@ -103,5 +103,148 @@ text-align:end;
   
   .destination:hover .destination-text {
     opacity: 1;
+  }
+  
+  .destination-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .destination-card {
+    width: 300px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .destination-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .destination-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .destination-card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .destination-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .destination-card .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .tour-destination {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px;
+    padding-top: 20px;
+}
+.discount {
+    margin-top: 20px;
+}
+.discount-section {
+    background-image: url('/images/backgrounddiscount.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .discount-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for better readability */
+    padding: 20px;
+  }
+  
+  .discount-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .discount-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .discount-container .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .discount-container .btn:hover {
+    background-color: #0056b3;
+  }
+  
+
+  /* Footer css */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    width: 100px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-social a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
   }
   

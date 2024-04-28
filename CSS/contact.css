@@ -55,54 +55,51 @@ text-align:center;
 
 /* end of menu top bar and menu bar css */
 
-.card-container {
-    display: flex;
-    flex-direction: column; /* Arrange cards vertically */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
     padding: 20px;
   }
-  .card {
+  h1 {
+    text-align: center;
+  }
+  form {
+    margin-top: 20px;
+  }
+  input[type="text"], textarea {
     width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    overflow: hidden; /* Hide overflow content */
-    position: relative; /* Position for hover effect */
-    transition: box-shadow 0.3s ease-in-out; /* Add transition effect */
-    display: flex;
-  }
-  .card:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Apply shadow on hover */
-  }
-  .card img {
-    width: 25%;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-  }
-  .card-content {
-    padding: 20px;
-    width: 75%;
-  }
-  .card h2 {
-    margin-top: 0;
-  }
-  .card p {
+    padding: 10px;
     margin-bottom: 10px;
-    font-size: 23px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
   }
-  .card button {
+  input[type="submit"] {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
   }
-  .card button:hover {
+  input[type="submit"]:hover {
     background-color: #45a049;
   }
 
-   /* Footer css */
-   footer {
+
+
+
+
+
+/* Footer css */
+footer {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
